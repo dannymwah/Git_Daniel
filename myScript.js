@@ -19,3 +19,13 @@ function myFunction3() {
   document.getElementById('demo1').innerHTML=a+'Incarcarea pe flux a programului de productie, necesarul de manopera, redistribuire personal'
   document.getElementById('demo2').innerHTML=ext
 }
+function myFunction4() {
+  document.getElementById("demo").innerHTML = "4. Soft interactiv - verificare documentatie";
+  document.getElementById('demo1').innerHTML=a+'Toata documentatia fi adaugata intr-o lista de asteptare pentru fiecare persoana pentru aprobare cu semnatura digitala'
+  document.getElementById('demo2').innerHTML=int
+}
+function myFunction5() {
+  document.getElementById("demo").innerHTML = "5. Soft interactiv - harta mentala";
+  document.getElementById('demo1').innerHTML=a+'Brainstorming de idei pentru toata echipa. Fiecare va putea adauga idei si solutii temei propuse'
+  document.getElementById('demo2').innerHTML=int
+}
