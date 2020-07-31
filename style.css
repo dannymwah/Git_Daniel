@@ -1,32 +1,121 @@
-header {
-	background-color: lightblue;
-	width: 100%;
-	height: 200px;
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
 }
-header img {
-	float: left;
-	margin-left: 30px;
-	margin-top: 15px;
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
 }
-nav{
-	float: right;
+
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
-nav ul {
-	margin-right: 80px;
-	margin-top: 75px;	
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
 }
-nav ul li{
-	display: inline-block;
-	margin-left: 20px;
-	font-size: 25px;
-	font-family: Arial;
+
+body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em 'Fira Sans', sans-serif;
+  min-height: 100vh;
+/*  display: -webkit-box;
+  display: flex;*/
 }
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	font-style: italic;
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+/*  margin: 0.5em;*/
+ /* padding: 1em 2em;*/
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+/*  border: 3px solid #f44336*/
+
 }
-.container {
-	width: 1000px;
-	margin:0 auto;
+
+.button0 {
+  background-color: #FFCC66; /* Green */
+  border: 3px solid blue;
+  color: black;
+  padding: 30px 100px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.button1 {
+  background-color: white; /* Green */
+  border: 3px solid green;
+  color: black;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.button2 {
+  background-color: #66CC33; /* Green */
+  border: 3px solid blue;
+  color: black;
+  padding: 25px 150px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button4 {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em 'Fira Sans', sans-serif;
+  background: none;
+  border: 5px solid;
+  font: inherit;
+  line-height: 1;
+/*  margin: 0.5em;*/
+ /* padding: 1em 2em;*/
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-style: outset;
+
+
+/*  border: 3px solid #f44336*/
+
 }
