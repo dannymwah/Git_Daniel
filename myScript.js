@@ -29,3 +29,13 @@ function myFunction5() {
   document.getElementById('demo1').innerHTML=a+'Brainstorming de idei pentru toata echipa. Fiecare va putea adauga idei si solutii temei propuse'
   document.getElementById('demo2').innerHTML=int
 }
+function myFunction6() {
+  document.getElementById("demo").innerHTML = "6. Vizualizare 3D produse site";
+  document.getElementById('demo1').innerHTML=a+'Pe site, produsele vor putea fi vizualizate 3D'
+  document.getElementById('demo2').innerHTML=int
+}
+function myFunction7() {
+  document.getElementById("demo").innerHTML = "7. Realitate virtuala produse site";
+  document.getElementById('demo1').innerHTML=a+'Daca se acceseaza site-ul de pe telefon, clientul poate vizualiza cum arata produsul in casa lui'
+  document.getElementById('demo2').innerHTML=int
+}
